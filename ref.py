@@ -1,0 +1,35 @@
+sample_response_for_get_transactions = {
+        "transactionId": "94806599",
+        "companyName": "FXOL 8TEST",
+        "valueDate": "08-May-2025",
+        "tradeDate": "07-May-2025",
+        "allInRate": "No Contract",
+        "buyCurrency": "CAD",
+        "buyCurrencyAmount": "50.00",
+        "sellCurrency": "USD",
+        "sellCurrencyAmount": "No Contract",
+        "spotRate": "No Contract",
+        "forwardPoints": "No Contract",
+        "productType": "FXSPOT",
+        "channel": "FX Online",
+        "settlementStatus": "Rejected",
+        "templateDTO": {"beneName": "Name", "beneAccountNo": "213"},
+        "accountDTO": {
+            "accountType": "MCA",
+            "accountNumber": "xx1414",
+            "bankName": "Wells Fargo Bank",
+            "swiftCode": None,
+        },
+        "historyDTO": [
+            {
+                "date": "08-May-2025",
+                "time": "08:18:41 am ET",
+                "activity": "Instructions rejected by Venky Dapulil<br /><b>Reject Reason: </b>Reject",
+            },
+            {
+                "date": "07-May-2025",
+                "time": "04:15:52 am ET",
+                "activity": "Instructions submitted by Sai Sreekanth T",
+            },
+        ],
+    }
